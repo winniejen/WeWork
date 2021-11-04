@@ -1,0 +1,9 @@
+#必须参数校验
+-  #  填入正确的name,parentid
+  name: 产品开发部${get_random_num(2)}
+  parentid: 1
+  name_en: None
+  order: None
+  id: None
+  errcode: 0
+  errmsg: created

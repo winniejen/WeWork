@@ -1,0 +1,14 @@
+get_access_token:  # 获取access_token接口
+  request:
+    method: get
+    path: /cgi-bin/gettoken
+    params:
+      corpid: $corpid
+      corpsecret: $corpsecret
+  # json表达式提取，正则表达式提取
+  extract:
+    access_token: '"access_token":"(.*?)",'
+  validate:
+    - equals: {status_code: 200}
+    - equals: {errcode: $errcode}
+    - contains: $errmsg

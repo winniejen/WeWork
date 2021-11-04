@@ -1,0 +1,27 @@
+#必须参数校验
+-  # test_data0 正确的access_token
+  access_token: ${extract_data('access_token')}
+  id: None
+  errcode: 0
+  errmsg: ok
+-  # test_data1 access_token为空
+  access_token: None
+  id: None
+  errcode: 41001
+  errmsg: access_token missing
+-  # test_data2 access_token错误
+  access_token: dfg${extract_data('access_token')}
+  id: None
+  errcode: 40014
+  errmsg: invalid access_token
+# 选填参数校验
+-  # test_data3 access_token正确，id存在
+  access_token: ${extract_data('access_token')}
+  id: ${extract_data('id')}
+  errcode: 0
+  errmsg: ok
+-  # test_data4 access_token正确，id不存在
+  access_token: ${extract_data('access_token')}
+  id: 345
+  errcode: 60123
+  errmsg: invalid party id

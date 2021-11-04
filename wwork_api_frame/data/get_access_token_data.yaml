@@ -1,0 +1,25 @@
+-  # test_01 正确的corpid和正确的corpsecret，成功获取到access_token
+  corpid: wwb39ec3baa9176871
+  corpsecret: Z2vgnNIPo6b9Z21r3K80Fdojoxc888V3UUcsOqw66zs
+  errcode: 0
+  errmsg: ok
+- # test_02 corpid为空，corpsecret正确，获取access_token失败
+  corpid: None
+  corpsecret: Z2vgnNIPo6b9Z21r3K80Fdojoxc888V3UUcsOqw66zs
+  errcode: 41002
+  errmsg: corpid missing
+-  # test_03 正确的corpid，corpsecret为空，获取access_token失败
+  corpid: wwb39ec3baa9176871
+  corpsecret: None
+  errcode: 41004
+  errmsg: corpsecret missing
+-  # test_04 错误corpid和正确的corpsecret，获取access_token失败
+  corpid: wwb39ec3baa91768171
+  corpsecret: Z2vgnNIPo6b9Z21r3K80Fdojoxc888V3UUcsOqw66zs
+  errcode: 40013
+  errmsg: invalid corpid
+-  # test_05 正确的corpid和错误的corpsecret，获取access_token失败
+  corpid: wwb39ec3baa9176871
+  corpsecret: Z2vgnNIPo6b9Z21r3K80Fdojoxc888V3UUcsOqw266zs
+  errcode: 40001
+  errmsg: invalid credential

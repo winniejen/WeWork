@@ -1,0 +1,88 @@
+#必须参数校验
+-  #  test_data0 正确的部门id,更新部门名称
+  id: ${extract_data('id')}   # 从创建部门接口获取创建成功的部门id
+  name: 更新部门${get_random_num(2)}
+  name_en: None
+  order: None
+  parentid: 1
+  errcode: 0
+  errmsg: updated
+-  # test_data1 部门id为空
+  id: None
+  name: 更新部门${get_random_num(2)}
+  name_en: None
+  order: None
+  parentid: 1
+  errcode: 60003
+  errmsg: department not found
+-  # test_data2 部门id不存在
+  id: 345
+  name: 更新部门${get_random_num(2)}
+  name_en: None
+  order: None
+  parentid: 1
+  errcode: 60003
+  errmsg: department not found
+# 选填参数校验
+-  # test_data3 部门id正确，name超限
+  id: ${extract_data('id')}   # 从创建部门接口获取创建成功的部门id
+  name: 更新部门${get_random_num(32)}
+  name_en: None
+  order: None
+  parentid: 1
+  errcode: 60001
+  errmsg: department invalid length
+# 选填参数校验
+-  # test_data4 部门id正确，name为空
+  id: ${extract_data('id')}   # 从创建部门接口获取创建成功的部门id
+  name: None
+  name_en: None
+  order: None
+  parentid: 1
+  errcode: 0
+  errmsg: updated
+# 选填参数校验
+-  # test_data5 部门id正确，name包含特殊字符
+  id: ${extract_data('id')}   # 从创建部门接口获取创建成功的部门id
+  name: ${get_special_char(1)}更新部门
+  name_en: None
+  order: None
+  parentid: 1
+  errcode: 60009
+  errmsg: department name include invalid char
+# 选填参数校验
+-  # test_data6 部门id正确，更新英文名称name_en
+  id: ${extract_data('id')}   # 从创建部门接口获取创建成功的部门id
+  name: None
+  name_en: GXBM${get_random_num(2)}
+  order: None
+  parentid: 1
+  errcode: 0
+  errmsg: updated
+# 选填参数校验
+-  # test_data7 部门id正确，name_en超限
+  id: ${extract_data('id')}   # 从创建部门接口获取创建成功的部门id
+  name: None
+  name_en: GXBM${get_random_num(32)}
+  order: None
+  parentid: 1
+  errcode: 40058
+  errmsg: name_en exceed max length 32
+# 选填参数校验
+-  # test_data8 部门id正确，更新parentid
+  id: ${extract_data('id')}   # 从创建部门接口获取创建成功的部门id
+  name: None
+  name_en: None
+  order: None
+  parentid: 2
+  errcode: 60124
+  errmsg: invalid parent party id
+# 选填参数校验
+-  # test_data9 部门id正确，更新order
+  id: ${extract_data('id')}   # 从创建部门接口获取创建成功的部门id
+  name: None
+  name_en: None
+  order: 5
+  parentid: 1
+  errcode: 0
+  errmsg: updated

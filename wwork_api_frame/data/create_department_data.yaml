@@ -1,0 +1,126 @@
+#必须参数校验
+-  # test_data0 name有效唯一,parentid存在
+  name: 产品开发部${get_timestamp()}
+  parentid: 1
+  name_en: None
+  order: None
+  id: None
+  errcode: 0
+  errmsg: created
+#必须参数校验
+-  # test_data1 name有效唯一,parentid为空
+  name: 产品开发部${get_timestamp()}
+  parentid: None
+  name_en: None
+  order: None
+  id: None
+  errcode: 60004
+  errmsg: parent department not found
+#必须参数校验
+-  # test_data2 name为空,parentid存在
+  name: None
+  parentid: 1
+  name_en: None
+  order: None
+  id: None
+  errcode: 60001
+  errmsg: department invalid length
+#必须参数校验
+-  # test_data3 name有效唯一,parentid不存在
+  name: 产品开发部${get_timestamp()}
+  parentid: 3
+  name_en: None
+  order: None
+  id: None
+  errcode: 0
+  errmsg: created
+#必须参数校验
+-  # test_data4 name长度超限,parentid存在
+  name: 产品开发部${get_random_num(32)}
+  parentid: 1
+  name_en: None
+  order: None
+  id: None
+  errcode: 60001
+  errmsg: department invalid length
+#必须参数校验
+-  # test_data5 name包含特殊字符,parentid存在
+  name: 产品开发部${get_special_char(1)}
+  parentid: 1
+  name_en: None
+  order: None
+  id: None
+  errcode: 60009
+  errmsg: department name include invalid char
+#必须参数校验
+-  #test_data6 name存在,parentid存在
+  name: 测试开发
+  parentid: 1
+  name_en: None
+  order: None
+  id: None
+  errcode: 60008
+  errmsg: department existed
+#选填参数校验
+-  # test_data7 name有效唯一,parentid存在，name_en有效唯一
+  name: 产品开发部${get_timestamp()}
+  parentid: 1
+  name_en: CPKF${get_timestamp()}
+  order: None
+  id: None
+  errcode: 0
+  errmsg: created
+#选填参数校验
+-  # test_data8 name有效唯一,parentid存在，name_en已存在
+  name: 产品开发部${get_timestamp()}
+  parentid: 1
+  name_en: CPKF
+  order: None
+  id: None
+  errcode: 60008
+  errmsg: department existed
+#选填参数校验
+-  # test_data9 name有效唯一,parentid存在，name_en包含特殊字符
+  name: 产品开发部${get_timestamp()}
+  parentid: 1
+  name_en: CP${get_special_char(1)}KF
+  order: None
+  id: None
+  errcode: 60009
+  errmsg: department name include invalid char
+#选填参数校验
+-  # test_data10 name有效唯一,parentid存在，order有效
+  name: 产品开发部${get_random_num(2)}
+  parentid: 1
+  name_en:
+  order: ${get_random_num(2)}
+  id: None
+  errcode: 0
+  errmsg: created
+#选填参数校验
+-  # test_data11 name有效唯一,parentid存在，order无效
+  name: 产品开发部${get_random_num(2)}
+  parentid: 1
+  name_en:
+  order: 'a'
+  id: None
+  errcode: 60009
+  errmsg: wrong json format
+#选填参数校验
+-  # test_data12 name有效唯一,parentid存在，id有效
+  name: 产品开发部${get_random_num(2)}
+  parentid: 1
+  name_en:
+  order: None
+  id: ${get_random_num(2)}
+  errcode: 0
+  errmsg: created
+#选填参数校验
+-  # test_data13 name有效唯一,parentid存在，id无效
+  name: 产品开发部${get_random_num(2)}
+  parentid: 1
+  name_en:
+  order: None
+  id: 'a'
+  errcode: 60009
+  errmsg: wrong json format
