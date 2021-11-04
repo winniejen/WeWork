@@ -1,0 +1,4 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:51085/session/4771e100fa9b9c72d0bdeaa1169cd128/source {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:51085 "GET /session/4771e100fa9b9c72d0bdeaa1169cd128/source HTTP/1.1" 200 143684
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:test_add_members.py:74 ---------添加成员功能测试结束----------

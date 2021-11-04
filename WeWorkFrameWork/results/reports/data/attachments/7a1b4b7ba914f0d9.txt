@@ -1,0 +1,6 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:51085/session/4771e100fa9b9c72d0bdeaa1169cd128/element {"using": "css selector", "value": ".ww_indexImg_AddMember"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:51085 "POST /session/4771e100fa9b9c72d0bdeaa1169cd128/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:51085/session/4771e100fa9b9c72d0bdeaa1169cd128/element/c13983cb-0b08-45ed-baa4-6f8736b1f6e4/click {"id": "c13983cb-0b08-45ed-baa4-6f8736b1f6e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:51085 "POST /session/4771e100fa9b9c72d0bdeaa1169cd128/element/c13983cb-0b08-45ed-baa4-6f8736b1f6e4/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

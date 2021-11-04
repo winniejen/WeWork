@@ -1,0 +1,125 @@
+{
+  "uid" : "f7721e60ee0a5164",
+  "name" : "初始化浏览器，打开企业微信个人首页",
+  "fullName" : "test_cases.test_add_members.TestAddMembers#test_add_members_03",
+  "historyId" : "83f2d1107eecfbcb4a80102fcbab12b7",
+  "time" : {
+    "start" : 1630299753127,
+    "stop" : 1630299753483,
+    "duration" : 356
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestAddMembers",
+    "time" : {
+      "start" : 1630299752061,
+      "stop" : 1630299752070,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开微信首页",
+      "time" : {
+        "start" : 1630299753127,
+        "stop" : 1630299753483,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "faa722228ca78b54",
+      "name" : "log",
+      "source" : "faa722228ca78b54.txt",
+      "type" : "text/plain",
+      "size" : 1294
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestAddMembers::0",
+    "time" : {
+      "start" : 1630299755191,
+      "stop" : 1630299755214,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "通过关键字驱动添加成员,yaml数据源"
+  }, {
+    "name" : "feature",
+    "value" : "添加成员"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_members"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddMembers"
+  }, {
+    "name" : "host",
+    "value" : "macdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2378-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_add_members"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_cases",
+    "value" : "{'title': '初始化浏览器，打开企业微信个人首页', 'page': 'BasePage', 'steps': [{'name': '打开微信首页', 'action': 'get_url', 'element_locator': None, 'input_content': 'https://work.weixin.qq.com/wework_admin/frame#index'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7721e60ee0a5164.json",
+  "parameterValues" : [ "{'title': '初始化浏览器，打开企业微信个人首页', 'page': 'BasePage', 'steps': [{'name': '打开微信首页', 'action': 'get_url', 'element_locator': None, 'input_content': 'https://work.weixin.qq.com/wework_admin/frame#index'}]}" ]
+}

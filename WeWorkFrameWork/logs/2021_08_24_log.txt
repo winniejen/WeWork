@@ -1,0 +1,99 @@
+2021-08-24 18:14:47,506 test_add_members.py setup_class line:39 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 18:14:47,507 test_add_members.py test_add_members line:48 [INFO] 开始执行测试用例------>add_member_001
+2021-08-24 18:15:00,082 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['简文宇', '小松鼠']
+2021-08-24 18:15:00,082 test_add_members.py test_add_members line:69 [INFO] 测试通过
+2021-08-24 18:15:00,089 test_add_members.py test_add_members line:48 [INFO] 开始执行测试用例------>add_member_002
+2021-08-24 18:15:12,560 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['花猫', '简文宇', '小松鼠']
+2021-08-24 18:15:12,604 test_add_members.py test_add_members line:69 [INFO] 测试通过
+2021-08-24 18:15:12,628 test_add_members.py test_add_members line:48 [INFO] 开始执行测试用例------>add_member_003
+2021-08-24 18:15:24,952 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['花猫', '简文宇', '三只熊', '小松鼠']
+2021-08-24 18:15:24,953 test_add_members.py test_add_members line:69 [INFO] 测试通过
+2021-08-24 18:15:24,971 test_add_members.py test_add_members line:48 [INFO] 开始执行测试用例------>add_member_004
+2021-08-24 18:15:40,295 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：[]
+2021-08-24 18:15:40,296 test_add_members.py test_add_members line:71 [INFO] 测试失败
+2021-08-24 18:15:40,358 test_add_members.py teardown_class line:42 [INFO] ---------测试结束-------
+2021-08-24 18:25:13,533 test_add_members.py setup_class line:39 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 18:25:13,534 test_add_members.py test_add_members line:49 [INFO] --执行测试用例: add_member_001--
+2021-08-24 18:25:26,375 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['简文宇', '小松鼠']
+2021-08-24 18:25:26,376 test_add_members.py test_add_members line:70 [INFO] 测试通过
+2021-08-24 18:25:26,400 test_add_members.py test_add_members line:49 [INFO] --执行测试用例: add_member_002--
+2021-08-24 18:25:38,825 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['花猫', '简文宇', '小松鼠']
+2021-08-24 18:25:38,850 test_add_members.py test_add_members line:70 [INFO] 测试通过
+2021-08-24 18:25:38,876 test_add_members.py test_add_members line:49 [INFO] --执行测试用例: add_member_003--
+2021-08-24 18:25:51,260 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['花猫', '简文宇', '三只熊', '小松鼠']
+2021-08-24 18:25:51,261 test_add_members.py test_add_members line:70 [INFO] 测试通过
+2021-08-24 18:25:51,285 test_add_members.py test_add_members line:49 [INFO] --执行测试用例: add_member_004--
+2021-08-24 18:26:06,742 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：[]
+2021-08-24 18:26:06,742 test_add_members.py test_add_members line:72 [INFO] 测试失败
+2021-08-24 18:26:06,806 test_add_members.py teardown_class line:42 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 18:31:32,129 log.py <module> line:58 [CRITICAL] 这是一条critical日志
+2021-08-24 18:31:32,140 log.py <module> line:59 [ERROR] 这是一条error级别的日志
+2021-08-24 20:40:29,158 test_add_members.py setup_class line:55 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 20:40:29,387 test_add_members.py teardown_class line:58 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 21:03:40,524 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 21:05:51,385 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 21:09:50,867 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 21:09:56,377 test_add_members.py teardown_class line:68 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 21:10:35,247 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 21:10:40,712 test_add_members.py teardown_class line:68 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 21:12:01,457 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 21:12:06,856 test_add_members.py teardown_class line:68 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 21:14:40,651 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 21:14:46,043 test_add_members.py teardown_class line:68 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 21:22:08,820 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 21:22:15,455 test_add_members.py teardown_class line:68 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 21:27:40,998 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 21:27:47,599 test_add_members.py teardown_class line:69 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:17:27,472 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:17:27,704 test_add_members.py teardown_class line:64 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:19:26,936 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:19:27,101 test_add_members.py teardown_class line:64 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:21:00,044 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:21:00,256 test_add_members.py teardown_class line:64 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:23:07,748 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:23:07,914 test_add_members.py teardown_class line:64 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:25:36,658 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:25:43,562 test_add_members.py teardown_class line:62 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:27:09,325 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:27:15,945 test_add_members.py teardown_class line:62 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:27:59,337 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:28:06,117 test_add_members.py teardown_class line:62 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:29:30,430 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:29:36,045 test_add_members.py teardown_class line:62 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:31:00,235 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:31:05,784 test_add_members.py teardown_class line:62 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:36:13,770 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:36:19,309 test_add_members.py teardown_class line:62 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:38:18,641 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:38:24,210 test_add_members.py teardown_class line:62 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:40:09,355 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:40:15,141 test_add_members.py teardown_class line:62 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:44:28,954 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:44:34,554 test_add_members.py teardown_class line:62 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:47:14,953 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:47:21,550 test_add_members.py teardown_class line:62 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 22:52:48,963 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:55:18,210 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 22:55:27,532 test_add_members.py teardown_class line:69 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:00:45,095 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:00:54,844 test_add_members.py teardown_class line:69 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:01:55,957 test_add_members.py setup_class line:58 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:02:05,191 test_add_members.py teardown_class line:69 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:04:42,157 test_add_members.py setup_class line:59 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:04:50,967 test_add_members.py teardown_class line:70 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:09:42,581 test_add_members.py setup_class line:59 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:09:52,380 test_add_members.py teardown_class line:70 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:10:40,312 test_add_members.py setup_class line:59 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:10:48,977 test_add_members.py teardown_class line:70 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:12:58,538 test_add_members.py setup_class line:59 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:13:07,912 test_add_members.py teardown_class line:70 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:26:16,677 test_add_members.py setup_class line:61 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:26:25,654 test_add_members.py teardown_class line:74 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:27:56,744 test_add_members.py setup_class line:61 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:28:05,453 test_add_members.py teardown_class line:74 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:30:53,694 test_add_members.py setup_class line:61 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:31:13,254 test_add_members.py teardown_class line:74 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:34:54,679 test_add_members.py setup_class line:61 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:35:09,448 test_add_members.py teardown_class line:74 [INFO] ---------添加成员功能测试结束----------
+2021-08-24 23:57:09,205 test_add_members.py setup_class line:61 [INFO] ---------开始测试添加成员功能--------
+2021-08-24 23:57:17,887 test_add_members.py teardown_class line:72 [INFO] ---------添加成员功能测试结束----------

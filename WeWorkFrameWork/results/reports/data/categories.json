@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: 添加成员失败",
+      "children" : [ {
+        "name" : "通讯录页面",
+        "uid" : "fae1cb3949f2fae5",
+        "parentUid" : "aacb9f8cdc073d1840eafcc3ff745c67",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630299754950,
+          "stop" : 1630299755001,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '通讯录页面', 'page': 'ContactsPage', 'steps': [{'name': '断言添加成员成功', 'action': 'assert_text', 'element_locator': None, 'input_content': '小星星'}]}" ]
+      } ],
+      "uid" : "aacb9f8cdc073d1840eafcc3ff745c67"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

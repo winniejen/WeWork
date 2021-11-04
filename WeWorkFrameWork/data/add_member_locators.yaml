@@ -1,0 +1,6 @@
+add_member_locator: ["css selector", ".ww_indexImg_AddMember"]
+user_locator: ["id", "username"]
+id_locator: ["id", "memberAdd_acctid"]
+phone_locator: ["id", "memberAdd_phone"]
+save_member_locator: ["css selector", '.js_btn_save']
+contacts_list_locator: ["css selector", '#member_list td:nth-child(2)']

@@ -1,0 +1,51 @@
+[ {
+  "uid" : "f7721e60ee0a5164",
+  "name" : "初始化浏览器，打开企业微信个人首页",
+  "time" : {
+    "start" : 1630299753127,
+    "stop" : 1630299753483,
+    "duration" : 356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fae1cb3949f2fae5",
+  "name" : "通讯录页面",
+  "time" : {
+    "start" : 1630299754950,
+    "stop" : 1630299755001,
+    "duration" : 51
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "944a48f1e08abe31",
+  "name" : "企业微信首页",
+  "time" : {
+    "start" : 1630299753490,
+    "stop" : 1630299753776,
+    "duration" : 286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7218e400a10a9709",
+  "name" : "初始化浏览器，打开企业微信个人首页",
+  "time" : {
+    "start" : 1630299752073,
+    "stop" : 1630299753122,
+    "duration" : 1049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c865138c961c772e",
+  "name" : "添加成员页面",
+  "time" : {
+    "start" : 1630299753804,
+    "stop" : 1630299754939,
+    "duration" : 1135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,5 @@
+INFO     root:test_add_members.py:69 ---------开始测试添加成员功能--------
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:51085/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": [], "debuggerAddress": "127.0.0.1:9222"}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": [], "debuggerAddress": "127.0.0.1:9222"}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:227 Starting new HTTP connection (1): 127.0.0.1:51085
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:51085 "POST /session HTTP/1.1" 200 668
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

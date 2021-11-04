@@ -1,0 +1,18 @@
+2021-08-29 22:29:53,588 test_add_members.py setup_class line:68 [INFO] ---------开始测试添加成员功能--------
+2021-08-29 22:30:00,311 add_member_page.py edit_member line:43 [INFO] 添加成员黎国娟
+2021-08-29 22:30:06,108 contacts_page.py get_member_list line:36 [INFO] 通讯录成员列表：['简文宇', '黎国娟']
+2021-08-29 22:30:06,108 contacts_page.py assert_add_member_success line:54 [INFO] 成员:黎国娟 在通讯录列表['简文宇', '黎国娟']中
+2021-08-29 22:30:06,108 test_add_members.py test_add_member_success line:102 [INFO] 测试通过
+2021-08-29 22:30:12,790 add_member_page.py edit_member line:43 [INFO] 添加成员广昊怡
+2021-08-29 22:30:18,667 contacts_page.py get_member_list line:36 [INFO] 通讯录成员列表：['广昊怡', '简文宇', '黎国娟']
+2021-08-29 22:30:18,667 contacts_page.py assert_add_member_success line:54 [INFO] 成员:广昊怡 在通讯录列表['广昊怡', '简文宇', '黎国娟']中
+2021-08-29 22:30:18,668 test_add_members.py test_add_member_success line:102 [INFO] 测试通过
+2021-08-29 22:30:25,294 add_member_page.py edit_member line:43 [INFO] 添加成员益云韶
+2021-08-29 22:30:31,173 contacts_page.py get_member_list line:36 [INFO] 通讯录成员列表：['广昊怡', '简文宇', '黎国娟', '益云韶']
+2021-08-29 22:30:31,173 contacts_page.py assert_add_member_success line:54 [INFO] 成员:益云韶 在通讯录列表['广昊怡', '简文宇', '黎国娟', '益云韶']中
+2021-08-29 22:30:31,173 test_add_members.py test_add_member_success line:102 [INFO] 测试通过
+2021-08-29 22:30:37,819 add_member_page.py edit_member line:43 [INFO] 添加成员怀以云
+2021-08-29 22:30:43,718 contacts_page.py get_member_list line:36 [INFO] 通讯录成员列表：['广昊怡', '怀以云', '简文宇', '黎国娟', '益云韶']
+2021-08-29 22:30:43,719 contacts_page.py assert_add_member_success line:54 [INFO] 成员:怀以云 在通讯录列表['广昊怡', '怀以云', '简文宇', '黎国娟', '益云韶']中
+2021-08-29 22:30:43,719 test_add_members.py test_add_member_success line:102 [INFO] 测试通过
+2021-08-29 22:30:43,798 test_add_members.py teardown_class line:72 [INFO] ---------添加成员功能测试结束----------

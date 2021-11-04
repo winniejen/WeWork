@@ -1,0 +1,9 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:51085/session/4771e100fa9b9c72d0bdeaa1169cd128/url {"url": "https://work.weixin.qq.com/wework_admin/frame#index"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:51085 "POST /session/4771e100fa9b9c72d0bdeaa1169cd128/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:51085/session/4771e100fa9b9c72d0bdeaa1169cd128/timeouts {"implicit": 5000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:51085 "POST /session/4771e100fa9b9c72d0bdeaa1169cd128/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:51085/session/4771e100fa9b9c72d0bdeaa1169cd128/window/maximize {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:51085 "POST /session/4771e100fa9b9c72d0bdeaa1169cd128/window/maximize HTTP/1.1" 200 50
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

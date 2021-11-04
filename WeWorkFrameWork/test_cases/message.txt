@@ -1,0 +1,12 @@
+2021-08-25 21:46:35,616 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:25] - DEBUG: login函数开始执行
+2021-08-25 21:46:35,617 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:37] - DEBUG: root LOGIN OK
+2021-08-25 21:46:35,617 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:27] - DEBUG: login函数结束执行
+2021-08-25 21:49:41,677 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo1.py[line:26] - DEBUG: login函数开始执行
+2021-08-25 21:49:41,696 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:18] - DEBUG: root LOGIN OK
+2021-08-25 21:49:41,696 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo1.py[line:28] - DEBUG: login函数结束执行
+2021-08-25 21:54:08,711 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo1.py[line:26] - DEBUG: login函数开始执行
+2021-08-25 21:54:08,711 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:18] - DEBUG: root LOGIN OK
+2021-08-25 21:54:08,712 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo1.py[line:28] - DEBUG: login函数结束执行
+2021-08-25 21:54:08,713 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo1.py[line:26] - DEBUG: test函数开始执行
+2021-08-25 21:54:08,713 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:26] - DEBUG: 这是debug日志
+2021-08-25 21:54:08,713 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo1.py[line:28] - DEBUG: test函数结束执行

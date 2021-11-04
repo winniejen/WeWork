@@ -1,0 +1,73 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "添加成员",
+    "children" : [ {
+      "name" : "通过关键字驱动添加成员,yaml数据源",
+      "children" : [ {
+        "name" : "初始化浏览器，打开企业微信个人首页",
+        "uid" : "7218e400a10a9709",
+        "parentUid" : "6eb56cac3a20e597a93110662cdc4290",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630299752073,
+          "stop" : 1630299753122,
+          "duration" : 1049
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '初始化浏览器，打开企业微信个人首页', 'page': 'BasePage', 'steps': [{'name': '打开浏览器', 'action': 'open_browser', 'element_locator': None, 'input_content': 'Chrome'}]}" ]
+      }, {
+        "name" : "初始化浏览器，打开企业微信个人首页",
+        "uid" : "f7721e60ee0a5164",
+        "parentUid" : "6eb56cac3a20e597a93110662cdc4290",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630299753127,
+          "stop" : 1630299753483,
+          "duration" : 356
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '初始化浏览器，打开企业微信个人首页', 'page': 'BasePage', 'steps': [{'name': '打开微信首页', 'action': 'get_url', 'element_locator': None, 'input_content': 'https://work.weixin.qq.com/wework_admin/frame#index'}]}" ]
+      }, {
+        "name" : "企业微信首页",
+        "uid" : "944a48f1e08abe31",
+        "parentUid" : "6eb56cac3a20e597a93110662cdc4290",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630299753490,
+          "stop" : 1630299753776,
+          "duration" : 286
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '企业微信首页', 'page': 'HomePage', 'steps': [{'name': '点击添加成员', 'action': 'click', 'element_locator': ['css selector', '.ww_indexImg_AddMember'], 'input_content': None}]}" ]
+      }, {
+        "name" : "添加成员页面",
+        "uid" : "c865138c961c772e",
+        "parentUid" : "6eb56cac3a20e597a93110662cdc4290",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630299753804,
+          "stop" : 1630299754939,
+          "duration" : 1135
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '添加成员页面', 'page': 'AddMembersPage', 'steps': [{'name': '输入姓名', 'action': 'input_text', 'element_locator': ['id', 'username'], 'input_content': '小星星'}, {'name': '输入账号', 'action': 'input_text', 'element_locator': ['id', 'memberAdd_acctid'], 'input_content': 'test_001'}, {'name': '输入手机号', 'action': 'input_text', 'element_locator': ['id', 'memberAdd_phone'], 'input_content': 17334543327}, {'name': '点击保存', 'action': 'click', 'element_locator': ['css selector', '.js_btn_save'], 'input_content': None}]}" ]
+      }, {
+        "name" : "通讯录页面",
+        "uid" : "fae1cb3949f2fae5",
+        "parentUid" : "6eb56cac3a20e597a93110662cdc4290",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630299754950,
+          "stop" : 1630299755001,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '通讯录页面', 'page': 'ContactsPage', 'steps': [{'name': '断言添加成员成功', 'action': 'assert_text', 'element_locator': None, 'input_content': '小星星'}]}" ]
+      } ],
+      "uid" : "6eb56cac3a20e597a93110662cdc4290"
+    } ],
+    "uid" : "3f633001356d810cc4ef5551c5746f67"
+  } ],
+  "name" : "behaviors"
+}

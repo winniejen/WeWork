@@ -1,0 +1,27 @@
+test_data:
+ -
+  case_name: 有效的姓名，账号，电话，添加成员成功
+  full_name: '黎国娟'
+  member_id: 'NO001'
+  phone: '17345678901'
+  expect: '黎国娟'
+ -
+  case_name: 有效的姓名，账号，邮箱，添加成员成功
+  full_name: '广昊怡'
+  member_id: 'NO002'
+  email: "453323454@qq.com"
+  expect: '广昊怡'
+ -
+  case_name: 有效的姓名，账号，电话，邮箱，添加成员成功
+  full_name: '益云韶'
+  member_id: 'NO003'
+  phone: '17345678903'
+  email: "453323454@qq.com"
+  expect: '益云韶'
+ -
+  case_name: 有效的姓名，账号，电话，地址，添加成员成功
+  full_name: '怀以云'
+  member_id: 'NO005'
+  phone: '17345678905'
+  address: '北京'
+  expect: '怀以云'

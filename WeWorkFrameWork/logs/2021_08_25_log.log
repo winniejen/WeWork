@@ -1,0 +1,21 @@
+
+2021-08-25 22:11:29,775 test_add_members.py setup_class line:64 [INFO] ---------开始测试添加成员功能--------
+2021-08-25 22:11:42,633 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['简文宇', '小松鼠']
+2021-08-25 22:11:42,634 test_add_members.py test_add_members_01 line:104 [INFO] 测试通过
+2021-08-25 22:11:55,245 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['花猫', '简文宇', '小松鼠']
+2021-08-25 22:11:55,245 test_add_members.py test_add_members_01 line:104 [INFO] 测试通过
+2021-08-25 22:12:07,840 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['花猫', '简文宇', '三只熊', '小松鼠']
+2021-08-25 22:12:07,840 test_add_members.py test_add_members_01 line:104 [INFO] 测试通过
+2021-08-25 22:12:25,398 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：[]
+2021-08-25 22:12:25,399 test_add_members.py test_add_members_01 line:106 [ERROR] 测试失败
+2021-08-25 22:12:25,513 test_add_members.py teardown_class line:74 [INFO] ---------添加成员功能测试结束----------
+2021-08-25 22:17:59,907 test_add_members.py setup_class line:65 [INFO] ---------开始测试添加成员功能--------
+2021-08-25 22:18:12,945 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['简文宇', '小松鼠']
+2021-08-25 22:18:12,945 test_add_members.py test_add_members_01 line:105 [INFO] 测试通过
+2021-08-25 22:18:25,633 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['花猫', '简文宇', '小松鼠']
+2021-08-25 22:18:25,634 test_add_members.py test_add_members_01 line:105 [INFO] 测试通过
+2021-08-25 22:18:38,389 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：['花猫', '简文宇', '三只熊', '小松鼠']
+2021-08-25 22:18:38,389 test_add_members.py test_add_members_01 line:105 [INFO] 测试通过
+2021-08-25 22:18:56,127 contacts_page.py get_member_list line:39 [INFO] 通讯录成员列表：[]
+2021-08-25 22:18:56,128 test_add_members.py test_add_members_01 line:107 [ERROR] 测试失败
+2021-08-25 22:18:56,228 test_add_members.py teardown_class line:75 [INFO] ---------添加成员功能测试结束----------

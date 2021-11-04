@@ -1,0 +1,6 @@
+2021-08-25 21:45:00,497 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:25] - DEBUG: login函数开始执行
+2021-08-25 21:45:00,498 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:40] - ERROR: root LOGIN FAILED
+2021-08-25 21:45:00,498 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:27] - DEBUG: login函数结束执行
+2021-08-25 21:45:20,734 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:25] - DEBUG: login函数开始执行
+2021-08-25 21:45:20,751 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:37] - DEBUG: root LOGIN OK
+2021-08-25 21:45:20,751 - /Volumes/Data/AutomationTest/WeWorkFrameWork/test_cases/demo.py[line:27] - DEBUG: login函数结束执行
